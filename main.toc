@@ -1,0 +1,26 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Grundlagen}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Aufgabenstellung}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Skizzen Versuchsaufbau}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Vorausgesetzte Formeln}{4}{subsection.1.3}%
+\contentsline {paragraph}{Ideales Gasgesetz}{4}{section*.4}%
+\contentsline {paragraph}{Gesetz von Amontons}{4}{section*.5}%
+\contentsline {paragraph}{Thermoelement (Seebeck-Effekt)}{4}{section*.6}%
+\contentsline {paragraph}{Pt100-Widerstand in Abhängigkeit von T}{4}{section*.7}%
+\contentsline {paragraph}{Ohmsches Gesetz}{4}{section*.8}%
+\contentsline {paragraph}{Plancksches Strahlungsgesetz}{5}{section*.9}%
+\contentsline {paragraph}{Stefan-Boltzmann-Gesetz}{5}{section*.10}%
+\contentsline {paragraph}{Druckumrechnung}{5}{section*.11}%
+\contentsline {subsection}{\numberline {1.4}Abgewandelte Formeln}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Verwendete Variablen}{6}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Messverfahren}{7}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Messprotokoll}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Temperaturmessungen am Becherglas}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Temperaturmessungen am Bunsenbrenner}{8}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Auswertung}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Eichen der Temperaturskala}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Endergebnisse}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Fehlerbetrachtung}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Diskussion}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Explizite Fehlerrechnung}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Vergleich mit Literaturwerten}{10}{subsection.4.3}%
