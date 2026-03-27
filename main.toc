@@ -19,9 +19,7 @@
 \contentsline {subsection}{\numberline {2.2}Temperaturmessungen am Bunsenbrenner}{8}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Auswertung}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Eichen der Druck-Temperaturskala}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Eichen der Thermospannung-Temperaturskala}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Endergebnisse}{9}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Fehlerbetrachtung}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Diskussion}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Explizite Fehlerrechnung}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Vergleich mit Literaturwerten}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {3.2}Eichen des Pt100-Widerstandsthermometers}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Temperaturvergleich zwischen Gasthermometer und Pyrometer}{10}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Fehlerbetrachtung}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Diskussion}{11}{subsection.4.1}%

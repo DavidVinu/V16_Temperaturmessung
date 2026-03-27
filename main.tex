@@ -105,6 +105,7 @@
 \paragraph{Pt100-Widerstand in Abhängigkeit von T}
 \begin{equation}
     R(T) = R_0 \bigl(1 + A T + B T^2\bigr)
+    \label{tab:widerstand-temperatur-formel}
 \end{equation}
 mit
 \begin{equation*}
@@ -173,6 +174,7 @@ Um die Temperatur in Abhängigkeit des Widerstands darzustellen, muss die Umkehr
 \end{equation*}
 \begin{equation}
 \Rightarrow T(R)=\sqrt{\frac{R}{R_{0} \cdot B}+\frac{A^{2}}{4 B^{2}}-\frac{1}{B}}-\frac{A}{2 B}
+\label{tab:t-r}
 \end{equation}
 
 \subsection{Verwendete Variablen}
@@ -345,36 +347,71 @@ Unter Berücksichtigung der Eichkurve können nun die gemessenen Druckwerte in T
 \label{tab:druck-eichung}
 \end{table}
 
-\subsection{Eichen der Thermospannung-Temperaturskala}
+\subsection{Eichen des Pt100-Widerstandsthermometers}
+Nun wird der Widerstand des Pt100-Elements gegen die Temperatur aufgetragen, welche jeweils mit der Funktion T(R) berechnet werden kann (\ref{tab:t-r}). Sodann wird eine Regressionsgerade für die aufgetragenen Werte berechnet. \\
 
+\begin{table}[H]
+\centering
+\sisetup{
+  locale=DE,
+  uncertainty-mode=separate, % ± vor Unsicherheit
+  separate-uncertainty=true, % separate Spalte
+  table-number-alignment=center
+}
+\begin{tabular}{S[table-format=2.0(1)] S[table-format=4.0(1)] S[table-format=3.1(1)]}
+\toprule
+{Thermospannung [mV]} & {Temperatur [°C]} \\
+\midrule
+100.0 \pm 0.13 & 0.0000 \\
+103.5 \pm 0.13 & 8.9670 \\
+108.0 \pm 0.14 & 20.531 \\
+111.8 \pm 0.14 & 30.328 \\
+115.6 \pm 0.14 & 40.153 \\
+119.6 \pm 0.15 & 50.526 \\
+123.4 \pm 0.15 & 60.411 \\
+127.5 \pm 0.15 & 71.110 \\
+131.7 \pm 0.16 & 82.105 \\
+135.7 \pm 0.16 & 92.611 \\
+137.8 \pm 0.16 & 98.140 \\
+\bottomrule
+\end{tabular}
+\caption{}
+\label{tab:messungen}
+\end{table}
 
-\subsection{Endergebnisse}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{RegressionsgeradeA2.png}
+    \begin{tabular}{rl}
+    $x$: & Temperatur [\si{\celsius}] \\
+    $y$: & Temperaturabhängige Spannung [\si{mV}] \\
+    \end{tabular}
+    \caption{Regressionsgerade für die Eichung des Pt100-Widerstandsthermometers}
+    \label{fig:regressionsgerade-a2}
+\end{figure}
+\phantom{text} \\ 
+Die erste Ableitung der Regressionsgeraden kann mit der Steigung des linearen Gliedes aus Gleichung (\ref{tab:widerstand-temperatur-formel}) verglichen werden. Erwartungsgemäß müsste diese mit dem Koeffizienten A übereinstimmen. Die Pseudoabweichung von zwei Nachkommastellen ist nicht auf einen Fehler in der Berechnung zurückzuführen, sondern auf die Tatsache, dass in Gleichung (\ref{tab:widerstand-temperatur-formel}) der Faktor \(R_0\) ausgeklammert ist, welcher in der Regressionsgeraden jedoch implizit enthalten ist. 
+\subsection{Temperaturvergleich zwischen Gasthermometer und Pyrometer}
+Die Temperaturwerte, welche mit dem Gasthermometer gemessen wurden, können nun mit den entsprechenden Werten des Pyrometers verglichen werden. Es ist zu erkennen, dass die Werte des Pyrometers systematisch niedriger liegen als die Werte des Gasthermometers. Dies ist auf die Tatsache zurückzuführen, dass das Pyrometer die Strahlungsleistung der Wasseroberfläche misst, welche aufgrund der Emissivität von Wasser nicht der tatsächlichen Temperatur entspricht. \\\\
+Die Abweichung der Werte nimmt mit steigender Temperatur zu, was sich durch das Plancksche Strahlungsgesetz erklären lässt, da die Strahlungsleistung mit steigender Temperatur überproportional zunimmt. Es ist zu erwarten, dass die Werte des Pyrometers bei niedrigeren Temperaturen näher an den Werten des Gasthermometers liegen, da die Emissivität von Wasser mit steigender Temperatur zunimmt. \\\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{temperaturvergleich.png}
+    \caption{Temperaturvergleich zwischen Gasthermometer und Pyrometer}
+    \label{fig:temperaturvergleich}
+\end{figure}
+
+% \subsection{Endergebnisse}
 
 \section{Fehlerbetrachtung}
 \subsection{Diskussion}
-Diesen Teil noch ausschreiben: \\\\
-Flüssigkeitsthermometer: \\
-1. Immersionstiefe \\\\
-Gasthermometer besitzt drei systematische Fehler, da lediglich Berücksichtigung des Gesetzes von Amontos: \\\\
-1. Glasballon dehnt sich bei Erwärmung aus, sodass sich das Luftvolumen verändert
-→ dieser Fehler kann jedoch vernachlässigt werden, da Luft einen weitaus größeren Ausdehnungskoeffizienten besitzt \\\\
-2. Die in der Kapillare zwischen Glaskugel und Manometer eingeschlossene Luft bleibt annähernd auf Zimmertemperatur → dieses "schädliche Volumen" wird komprimiert/expandiert, sodass sich das Luftvolumen ändert \\\\
-3. Luft ist nur bedingt ein ideales Gas \\
-→ insbesondere bei niedrigen Temperaturen, wenn annähernd flüssig \\
-aber: fällt kaum ins Gewicht, da der Druck im Gefäß niedrig ist und somit weit vom flüssigen Zustand entfernt \\\\
-Thermoelement, systematische Fehler: \\
-1. Spannungsverlauf auch bei geeigneter Wahl der Metalle nicht vollständig linear \\\\
-Widerstandsthermometer: \\
-1. Eigenerwärmung des Pt-Thermometers verfälscht Temperaturmessung \\
-→ daher konstanter und möglichst kleiner Messstrom von 1mA
-2. Messwiderstand der (langen) Zuleitungen \\
-→ kann durch Vierleiterschaltung vermieden werden, indem aus Innenwiderstand der Voltmeter von einigen \( \text{M}\Omega \) resultiert, dass der Leitungswiderstand vernachlässigbar klein ist. \\
-Pyrometer:
-1. Unterscheidet sich systematisch von von "wahrer" Temperatur, da Absorptionsvermögen von Wasser nicht = 1 \\
-→ Plancksches Strahlungsgesetz
 
-\subsection{Explizite Fehlerrechnung}
-\subsection{Vergleich mit Literaturwerten}
+Die umfassende Analyse der systematischen Fehlerquellen verschiedener Thermometerarten offenbart, dass jedes Messprinzip spezifische physikalische Limitationen aufweist, die jedoch durch gezielte messtechnische und kalibrierungsbasierte Maßnahmen effektiv minimiert werden können. Beim Gasthermometer, das ausschließlich auf dem Amontonsschen Gesetz basiert, ergeben sich drei wesentliche systematische Fehlerquellen: Erstens führt die thermische Ausdehnung des Glasballons bei Erwärmung zu einer Volumenänderung, wodurch das gemessene Luftvolumen verfälscht wird. Dieser Effekt ist jedoch aufgrund des um ein bis zwei Größenordnungen höheren Ausdehnungskoeffizienten der Luft gegenüber Glas in der Praxis vernachlässigbar. Zweitens verursacht das in der Kapillare zwischen Glaskugel und Manometer eingeschlossene ``schädliche Volumen'', das annähernd Zimmertemperatur beibehält, eine Kompression bzw. Expansion dieses Luftpolsters, was das effektive Messvolumen beeinflusst und bei hochpräzisen Messungen eine sorgfältige Kalibrierung oder Volumenkorrektur erfordert. Drittens weicht Luft als reales Gas vom idealen Gasverhalten ab, insbesondere bei niedrigen Temperaturen nahe dem Verflüssigungspunkt. Dieser Fehler bleibt jedoch bei den im Gasthermometer üblichen niedrigen Drücken und Temperaturen im Messfehlerbereich und fällt daher kaum ins Gewicht. \\\\
+Thermoelemente zeigen trotz sorgfältiger Materialauswahl einen nicht vollständig linearen Spannungs-Temperatur-Verlauf, der durch spezifische Metallkombinationen (z.\,B. Typ K: Chrom-Alumel) sowie moderne elektronische Linearisierungsschaltungen zuverlässig kompensiert werden kann. Bei Widerstandsthermometern, insbesondere Pt100/1000-Sensoren, führt die durch den Messstrom verursachte Eigenerwärmung zu einer systematischen Überhöhung der gemessenen Temperatur. Diese wird durch Einsatz eines konstanten, möglichst kleinen Messstroms von 1\,mA und einer Vierleiterschaltung -- bei der der hohe Innenwiderstand des Voltmeters (typisch mehrere M$\Omega$) den Leitungswiderstand der oft langen Zuleitungskabel vernachlässigbar klein macht -- vollständig eliminiert. Pyrometer weisen schliesslich systematische Abweichungen von der ``wahren'' Temperatur auf, da das Absorptionsvermögen des gemessenen Mediums (z.\,B. Wasser) von der im Planckschen Strahlungsgesetz angenommenen Blackbody-Bedingung ($\epsilon=1$) abweicht. Diese Emissivitätskorrektur ist für präzise Messungen unerlässlich. \\\\
+Zusammenfassend lässt sich konstatieren, dass durch kalibrierungsbasierte Korrekturverfahren, optimierte Messtechnik (Vierleiterschaltung, niedriger Messstrom) und fortschrittliche materialtechnische Entwicklungen die systematischen Fehler aller analysierten Thermometerprinzipien auf ein für wissenschaftliche und industrielle Anwendungen akzeptables Niveau reduziert werden können, wobei jedes Verfahren seine spezifischen Stärken in Abhängigkeit vom Messbereich und der geforderten Genauigkeit entfaltet.
+
+% \subsection{Explizite Fehlerrechnung}
+% \subsection{Vergleich mit Literaturwerten}
 
 
 \end{document}

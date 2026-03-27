@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.26)  27 MAR 2026 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.26)  27 MAR 2026 21:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -450,7 +450,11 @@ File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count338
 \l__pdf_internal_box=\box67
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `tab:messungen' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -546,7 +550,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-<Copy of Protokolldeckblatt (2015) +11.pdf, id=76, 597.45204pt x 845.1575pt>
+<Copy of Protokolldeckblatt (2015) +11.pdf, id=68, 597.45204pt x 845.1575pt>
 File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf>
 Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf  used on input line 35.
@@ -555,7 +559,7 @@ File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf>
 Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf  used on input line 35.
 (pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-<Copy of Protokolldeckblatt (2015) +11.pdf, id=79, page=1, 597.45204pt x 845.1575pt>
+<Copy of Protokolldeckblatt (2015) +11.pdf, id=71, page=1, 597.45204pt x 845.1575pt>
 File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf, page 1>
 Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 35.
@@ -589,17 +593,17 @@ Overfull \hbox (12.00002pt too wide) in paragraph at lines 37--37
 \openout4 = `main.toc'.
 
  [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<Screenshot 2026-03-22 123212.png, id=196, 752.8125pt x 659.46375pt>
+<Screenshot 2026-03-22 123212.png, id=186, 752.8125pt x 659.46375pt>
 File: Screenshot 2026-03-22 123212.png Graphic file (type png)
 <use Screenshot 2026-03-22 123212.png>
 Package pdftex.def Info: Screenshot 2026-03-22 123212.png  used on input line 49.
 (pdftex.def)             Requested size: 455.24411pt x 398.8007pt.
-<Screenshot 2026-03-22 105709.png, id=198, 700.11563pt x 670.75594pt>
+<Screenshot 2026-03-22 105709.png, id=188, 700.11563pt x 670.75594pt>
 File: Screenshot 2026-03-22 105709.png Graphic file (type png)
 <use Screenshot 2026-03-22 105709.png>
 Package pdftex.def Info: Screenshot 2026-03-22 105709.png  used on input line 62.
 (pdftex.def)             Requested size: 254.93558pt x 244.2456pt.
-<Screenshot 2026-03-22 131246.png, id=199, 864.98157pt x 637.63219pt>
+<Screenshot 2026-03-22 131246.png, id=189, 864.98157pt x 637.63219pt>
 File: Screenshot 2026-03-22 131246.png Graphic file (type png)
 <use Screenshot 2026-03-22 131246.png>
 Package pdftex.def Info: Screenshot 2026-03-22 131246.png  used on input line 78.
@@ -610,12 +614,12 @@ Overfull \hbox (41.23703pt too wide) in paragraph at lines 69--83
  []
 
 [3 <./Screenshot 2026-03-22 123212.png>] [4 <./Screenshot 2026-03-22 105709.png> <./Screenshot 2026-03-22 131246.png>]
-Overfull \hbox (21.84576pt too wide) detected at line 173
+Overfull \hbox (21.84576pt too wide) detected at line 174
 [][]
  []
 
 [5]
-Overfull \hbox (18.54706pt too wide) in paragraph at lines 213--215
+Overfull \hbox (18.54706pt too wide) in paragraph at lines 215--217
 []\T1/cmr/m/n/12 Eine Vier-leiter-schal-tung wird zur In-be-trieb-nah-me des Pt-100-Widerstandsthermometers
  []
 
@@ -627,73 +631,53 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
 
-Overfull \hbox (9.1388pt too wide) detected at line 237
+Overfull \hbox (9.1388pt too wide) detected at line 239
 []$[]\OT1/cmr/m/n/12 8$ 
  []
 
 
-Overfull \hbox (18.27759pt too wide) detected at line 237
+Overfull \hbox (18.27759pt too wide) detected at line 239
 $[]\OT1/cmr/m/n/12 0$ []$[]8$ 
  []
 
 
-Overfull \hbox (5.87494pt too wide) detected at line 237
-[]$[]\OT1/cmr/m/n/12 13$ 
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 237
-$[]\OT1/cmr/m/n/12 00$ []$[]13$ 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 238
-[]$[]\OT1/cmr/m/n/12 9$ 
- []
-
-
-Overfull \hbox (18.27759pt too wide) detected at line 238
-$[]\OT1/cmr/m/n/12 0$ []$[]9$ 
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 238
-[]$[]\OT1/cmr/m/n/12 13$ 
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 238
-$[]\OT1/cmr/m/n/12 50$ []$[]13$ 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 239
-[]$[]\OT1/cmr/m/n/12 0$ 
- []
-
-
-Overfull \hbox (18.27759pt too wide) detected at line 239
-$[]\OT1/cmr/m/n/12 0$ []$[]0$ 
- []
-
-
 Overfull \hbox (5.87494pt too wide) detected at line 239
-[]$[]\OT1/cmr/m/n/12 14$ 
+[]$[]\OT1/cmr/m/n/12 13$ 
  []
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 239
-$[]\OT1/cmr/m/n/12 00$ []$[]14$ 
+$[]\OT1/cmr/m/n/12 00$ []$[]13$ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 240
+[]$[]\OT1/cmr/m/n/12 9$ 
+ []
+
+
+Overfull \hbox (18.27759pt too wide) detected at line 240
+$[]\OT1/cmr/m/n/12 0$ []$[]9$ 
  []
 
 
 Overfull \hbox (5.87494pt too wide) detected at line 240
-[]$[]\OT1/cmr/m/n/12 14$ 
+[]$[]\OT1/cmr/m/n/12 13$ 
  []
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 240
-$[]\OT1/cmr/m/n/12 80$ []$[]14$ 
+$[]\OT1/cmr/m/n/12 50$ []$[]13$ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 241
+[]$[]\OT1/cmr/m/n/12 0$ 
+ []
+
+
+Overfull \hbox (18.27759pt too wide) detected at line 241
+$[]\OT1/cmr/m/n/12 0$ []$[]0$ 
  []
 
 
@@ -703,27 +687,27 @@ Overfull \hbox (5.87494pt too wide) detected at line 241
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 241
-$[]\OT1/cmr/m/n/12 60$ []$[]14$ 
+$[]\OT1/cmr/m/n/12 00$ []$[]14$ 
  []
 
 
 Overfull \hbox (5.87494pt too wide) detected at line 242
-[]$[]\OT1/cmr/m/n/12 15$ 
+[]$[]\OT1/cmr/m/n/12 14$ 
  []
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 242
-$[]\OT1/cmr/m/n/12 60$ []$[]15$ 
+$[]\OT1/cmr/m/n/12 80$ []$[]14$ 
  []
 
 
 Overfull \hbox (5.87494pt too wide) detected at line 243
-[]$[]\OT1/cmr/m/n/12 15$ 
+[]$[]\OT1/cmr/m/n/12 14$ 
  []
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 243
-$[]\OT1/cmr/m/n/12 40$ []$[]15$ 
+$[]\OT1/cmr/m/n/12 60$ []$[]14$ 
  []
 
 
@@ -733,27 +717,27 @@ Overfull \hbox (5.87494pt too wide) detected at line 244
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 244
-$[]\OT1/cmr/m/n/12 50$ []$[]15$ 
+$[]\OT1/cmr/m/n/12 60$ []$[]15$ 
  []
 
 
 Overfull \hbox (5.87494pt too wide) detected at line 245
-[]$[]\OT1/cmr/m/n/12 16$ 
+[]$[]\OT1/cmr/m/n/12 15$ 
  []
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 245
-$[]\OT1/cmr/m/n/12 70$ []$[]16$ 
+$[]\OT1/cmr/m/n/12 40$ []$[]15$ 
  []
 
 
 Overfull \hbox (5.87494pt too wide) detected at line 246
-[]$[]\OT1/cmr/m/n/12 16$ 
+[]$[]\OT1/cmr/m/n/12 15$ 
  []
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 246
-$[]\OT1/cmr/m/n/12 70$ []$[]16$ 
+$[]\OT1/cmr/m/n/12 50$ []$[]15$ 
  []
 
 
@@ -763,215 +747,460 @@ Overfull \hbox (5.87494pt too wide) detected at line 247
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 247
+$[]\OT1/cmr/m/n/12 70$ []$[]16$ 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 248
+[]$[]\OT1/cmr/m/n/12 16$ 
+ []
+
+
+Overfull \hbox (11.74988pt too wide) detected at line 248
+$[]\OT1/cmr/m/n/12 70$ []$[]16$ 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 249
+[]$[]\OT1/cmr/m/n/12 16$ 
+ []
+
+
+Overfull \hbox (11.74988pt too wide) detected at line 249
 $[]\OT1/cmr/m/n/12 80$ []$[]16$ 
  []
 
 
-Overfull \hbox (5.87494pt too wide) detected at line 272
+Overfull \hbox (5.87494pt too wide) detected at line 274
 []$[]\OT1/cmr/m/n/12 15$ 
  []
 
 
-Overfull \hbox (11.74988pt too wide) detected at line 272
+Overfull \hbox (11.74988pt too wide) detected at line 274
 $[]\OT1/cmr/m/n/12 80$ []$[]15$ 
  []
 
 [7{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 312--315
+Underfull \hbox (badness 10000) in paragraph at lines 314--317
 
  []
 
 [8]
-Overfull \hbox (20.88867pt too wide) detected at line 331
+Overfull \hbox (20.88867pt too wide) detected at line 333
 $[]\OT1/cmr/m/n/12 000$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 332
+Overfull \hbox (15.01373pt too wide) detected at line 334
 $[]\OT1/cmr/m/n/12 15$ [] 
  []
 
 
-Overfull \hbox (9.1388pt too wide) detected at line 332
+Overfull \hbox (9.1388pt too wide) detected at line 334
 []$[]\OT1/cmr/m/n/12 9$ 
  []
 
 
-Overfull \hbox (18.27759pt too wide) detected at line 332
+Overfull \hbox (18.27759pt too wide) detected at line 334
 $[]\OT1/cmr/m/n/12 0$ []$[]9$ 
  []
 
 
-Overfull \hbox (20.88867pt too wide) detected at line 332
+Overfull \hbox (20.88867pt too wide) detected at line 334
 $[]\OT1/cmr/m/n/12 573$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 333
+Overfull \hbox (15.01373pt too wide) detected at line 335
 $[]\OT1/cmr/m/n/12 72$ [] 
  []
 
 
-Overfull \hbox (9.1388pt too wide) detected at line 333
+Overfull \hbox (9.1388pt too wide) detected at line 335
 []$[]\OT1/cmr/m/n/12 0$ 
  []
 
 
-Overfull \hbox (18.27759pt too wide) detected at line 333
+Overfull \hbox (18.27759pt too wide) detected at line 335
 $[]\OT1/cmr/m/n/12 0$ []$[]0$ 
  []
 
 
-Overfull \hbox (20.88867pt too wide) detected at line 333
+Overfull \hbox (20.88867pt too wide) detected at line 335
 $[]\OT1/cmr/m/n/12 441$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 334
+Overfull \hbox (15.01373pt too wide) detected at line 336
 $[]\OT1/cmr/m/n/12 59$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 334
+Overfull \hbox (15.01373pt too wide) detected at line 336
 $[]\OT1/cmr/m/n/12 84$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 335
+Overfull \hbox (15.01373pt too wide) detected at line 337
 $[]\OT1/cmr/m/n/12 99$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 335
+Overfull \hbox (15.01373pt too wide) detected at line 337
 $[]\OT1/cmr/m/n/12 53$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 336
+Overfull \hbox (15.01373pt too wide) detected at line 338
 $[]\OT1/cmr/m/n/12 68$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 336
+Overfull \hbox (15.01373pt too wide) detected at line 338
 $[]\OT1/cmr/m/n/12 81$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 337
+Overfull \hbox (15.01373pt too wide) detected at line 339
 $[]\OT1/cmr/m/n/12 96$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 337
+Overfull \hbox (15.01373pt too wide) detected at line 339
 $[]\OT1/cmr/m/n/12 09$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 338
+Overfull \hbox (15.01373pt too wide) detected at line 340
 $[]\OT1/cmr/m/n/12 24$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 338
+Overfull \hbox (15.01373pt too wide) detected at line 340
 $[]\OT1/cmr/m/n/12 07$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 339
+Overfull \hbox (15.01373pt too wide) detected at line 341
 $[]\OT1/cmr/m/n/12 22$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 339
+Overfull \hbox (15.01373pt too wide) detected at line 341
 $[]\OT1/cmr/m/n/12 24$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 340
+Overfull \hbox (15.01373pt too wide) detected at line 342
 $[]\OT1/cmr/m/n/12 39$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 340
+Overfull \hbox (15.01373pt too wide) detected at line 342
 $[]\OT1/cmr/m/n/12 23$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 341
+Overfull \hbox (15.01373pt too wide) detected at line 343
 $[]\OT1/cmr/m/n/12 38$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 341
+Overfull \hbox (15.01373pt too wide) detected at line 343
 $[]\OT1/cmr/m/n/12 45$ [] 
  []
 
 
-Overfull \hbox (15.01373pt too wide) detected at line 342
+Overfull \hbox (15.01373pt too wide) detected at line 344
 $[]\OT1/cmr/m/n/12 60$ [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--375
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--375
+Overfull \hbox (5.87494pt too wide) detected at line 365
+$\OT1/cmr/m/n/12 100$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 365
+[]$[]\OT1/cmr/m/n/12 13$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 365
+$[]\OT1/cmr/m/n/12 00$ []$[]13$ 
+ []
+
+
+Overfull \hbox (26.76361pt too wide) detected at line 366
+$[]\OT1/cmr/m/n/12 0000$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 366
+$\OT1/cmr/m/n/12 103$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 366
+[]$[]\OT1/cmr/m/n/12 13$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 366
+$[]\OT1/cmr/m/n/12 50$ []$[]13$ 
+ []
+
+
+Overfull \hbox (26.76361pt too wide) detected at line 367
+$[]\OT1/cmr/m/n/12 9670$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 367
+$\OT1/cmr/m/n/12 108$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 367
+[]$[]\OT1/cmr/m/n/12 14$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 367
+$[]\OT1/cmr/m/n/12 00$ []$[]14$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 368
+$[]\OT1/cmr/m/n/12 531$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 368
+$\OT1/cmr/m/n/12 111$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 368
+[]$[]\OT1/cmr/m/n/12 14$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 368
+$[]\OT1/cmr/m/n/12 80$ []$[]14$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 369
+$[]\OT1/cmr/m/n/12 328$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 369
+$\OT1/cmr/m/n/12 115$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 369
+[]$[]\OT1/cmr/m/n/12 14$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 369
+$[]\OT1/cmr/m/n/12 60$ []$[]14$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 370
+$[]\OT1/cmr/m/n/12 153$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 370
+$\OT1/cmr/m/n/12 119$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 370
+[]$[]\OT1/cmr/m/n/12 15$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 370
+$[]\OT1/cmr/m/n/12 60$ []$[]15$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 371
+$[]\OT1/cmr/m/n/12 526$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 371
+$\OT1/cmr/m/n/12 123$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 371
+[]$[]\OT1/cmr/m/n/12 15$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 371
+$[]\OT1/cmr/m/n/12 40$ []$[]15$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 372
+$[]\OT1/cmr/m/n/12 411$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 372
+$\OT1/cmr/m/n/12 127$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 372
+[]$[]\OT1/cmr/m/n/12 15$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 372
+$[]\OT1/cmr/m/n/12 50$ []$[]15$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 373
+$[]\OT1/cmr/m/n/12 110$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 373
+$\OT1/cmr/m/n/12 131$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 373
+[]$[]\OT1/cmr/m/n/12 16$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 373
+$[]\OT1/cmr/m/n/12 70$ []$[]16$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 374
+$[]\OT1/cmr/m/n/12 105$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 374
+$\OT1/cmr/m/n/12 135$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 374
+[]$[]\OT1/cmr/m/n/12 16$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 374
+$[]\OT1/cmr/m/n/12 70$ []$[]16$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 375
+$[]\OT1/cmr/m/n/12 611$ [] 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 375
+$\OT1/cmr/m/n/12 137$
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 375
+[]$[]\OT1/cmr/m/n/12 16$ 
+ []
+
+
+Overfull \hbox (30.02747pt too wide) detected at line 375
+$[]\OT1/cmr/m/n/12 80$ []$[]16$ 
+ []
+
+
+Overfull \hbox (20.88867pt too wide) detected at line 376
+$[]\OT1/cmr/m/n/12 140$ [] 
+ []
+
+<RegressionsgeradeA2.png, id=266, 638.385pt x 475.7775pt>
+File: RegressionsgeradeA2.png Graphic file (type png)
+<use RegressionsgeradeA2.png>
+Package pdftex.def Info: RegressionsgeradeA2.png  used on input line 384.
+(pdftex.def)             Requested size: 455.24411pt x 339.28537pt.
+[9]
+<temperaturvergleich.png, id=276, 636.3775pt x 477.785pt>
+File: temperaturvergleich.png Graphic file (type png)
+<use temperaturvergleich.png>
+Package pdftex.def Info: temperaturvergleich.png  used on input line 399.
+(pdftex.def)             Requested size: 455.24411pt x 341.78865pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--375
+Underfull \hbox (badness 10000) in paragraph at lines 395--402
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--375
+Underfull \hbox (badness 10000) in paragraph at lines 395--402
+
+ []
+
+[10 <./RegressionsgeradeA2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 409--412
 
  []
 
 
-Overfull \hbox (13.13596pt too wide) in paragraph at lines 355--375
-\T1/cmr/m/n/12 nä-hernd auf Zim-mer-tem-pe-ra-tur \TS1/cmr/m/n/12 ^^Y \T1/cmr/m/n/12 die-ses ÿchäd-li-che Vo-lu-men"wird kom-pri-miert/expandiert,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--375
+Underfull \hbox (badness 10000) in paragraph at lines 409--412
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--375
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--375
-
- []
-
-[9] [10] (./main.aux)
+[11 <./temperaturvergleich.png>] [12] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C8A2539440EF6F609A9D32C8C8571057;2929.
+(rerunfilecheck)             Checksum: B490EF400C4C0A4502F15C70BB074946;2766.
  ) 
 Here is how much of TeX's memory you used:
- 19076 strings out of 474222
- 359808 string characters out of 5748733
- 1952975 words of memory out of 5000000
- 41023 multiletter control sequences out of 15000+600000
+ 19087 strings out of 474222
+ 360214 string characters out of 5748733
+ 1958975 words of memory out of 5000000
+ 41031 multiletter control sequences out of 15000+600000
  573583 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,18n,80p,621b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,18n,80p,1457b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (10 pages, 597735 bytes).
+Output written on main.pdf (12 pages, 644598 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 180 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 

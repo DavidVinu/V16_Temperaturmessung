@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1774603629.04352 "/home/david/code/latex/V16_Temperaturmessung/main.tex" "main.pdf" "main" 1774603630.38405 0
+["pdflatex"] 1774641763.66477 "/home/david/code/latex/V16_Temperaturmessung/main.tex" "main.pdf" "main" 1774641765.14077 0
   "/etc/texmf/web2c/texmf.cnf" 1774539036.53669 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/david/code/latex/V16_Temperaturmessung/main.tex" 1774603628.05736 14875 e6d230d559c228ac73ba3d72daa7417f ""
+  "/home/david/code/latex/V16_Temperaturmessung/main.tex" 1774641763.4239 19411 45fb6c3d21549cc8164d8795065a4208 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm" 1136768653 3584 ad9fcbc26a2a7bccd6d08b0a5792fbe0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm" 1136768653 3584 269b66e921ba58750c12f7f1c8ea3ebd ""
@@ -143,13 +143,15 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1774540577.4842 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1774540676 8213973 026e6abc4f6959c1caa8ec638362d94f ""
   "Copy of Protokolldeckblatt (2015) +11.pdf" 1774598674.27181 225310 92252b40ed778291bf0f651bd207c269 ""
+  "RegressionsgeradeA2.png" 1774638564.9342 25527 af7d2bfc999faa8f5db3dbae72796eae ""
   "Screenshot 2026-03-22 105709.png" 1774598674.27359 66454 a616082077c47568cba1d08b6981bf06 ""
   "Screenshot 2026-03-22 123212.png" 1774598674.27421 33362 37ccf622d80a3d93cf32e213723baf1f ""
   "Screenshot 2026-03-22 131246.png" 1774598674.27503 59308 f94a0adcb6221289ae29fae79057c020 ""
-  "main.aux" 1774603630.26086 5021 93d19376a66dec9ab9046b58cc333358 "pdflatex"
-  "main.out" 1774603630.26186 2929 c8a2539440ef6f609a9d32c8c8571057 "pdflatex"
-  "main.tex" 1774603628.05736 14875 e6d230d559c228ac73ba3d72daa7417f ""
-  "main.toc" 1774603630.26186 2101 30e48735fae528b8efbde4975f0c2670 "pdflatex"
+  "main.aux" 1774641765.02289 5788 57e91e5f3c1d13c4532b34a4bc30a7a9 "pdflatex"
+  "main.out" 1774641765.02389 2766 b490ef400c4c0a4502f15c70bb074946 "pdflatex"
+  "main.tex" 1774641763.4239 19411 45fb6c3d21549cc8164d8795065a4208 ""
+  "main.toc" 1774641765.02489 1960 4a68e6249e93c526417bb9acd620e88c "pdflatex"
+  "temperaturvergleich.png" 1774641149.71079 27408 78768a32214e525100b33b16c4441583 ""
   (generated)
   "main.aux"
   "main.log"
