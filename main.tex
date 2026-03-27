@@ -6,7 +6,6 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage{fp}
 \usepackage{siunitx}
 \usepackage{spreadtab}
 \usepackage{booktabs}
@@ -278,7 +277,7 @@ Innere Mantelschicht & 6.2 \pm 0.1  & 2.8 \pm 0.15 \\
 \end{table}
 
 \section{Auswertung}
-\subsection{Eichen der Temperaturskala}
+\subsection{Eichen der Druck-Temperaturskala}
 Um das Gasthermometer zu eichen, werden zunächst zwei Eichpunkte bei 0\si{\celsius} und 100\si{\celsius} festgelegt. Da bei der Durchführung lediglich 97\si{\celsius} erreicht wurden, wird der zweite Eichpunkt adäquat angepasst. Der gemessene Druck \(p_\text{gem}\) muss dabei auf den Druck \(p_\text{NB}\) unter Normalbedingungen umgerechnet werden. 
 \begin{equation}
 \begin{aligned}
@@ -287,7 +286,7 @@ Um das Gasthermometer zu eichen, werden zunächst zwei Eichpunkte bei 0\si{\cels
 &= 1251,248266~\text{hPa}
 \end{aligned}
 \end{equation}
-Folglich bilden die beiden Eichpunkte eine lineare Funktion \(f(x) = mx + b\), wobei die Temperatur auf der x-Achse und der Druck auf der y-Achse dargestellt wird.
+Folglich bilden die beiden Eichpunkte eine lineare Funktion \(f(x) = mx + b\), wobei die Temperatur auf der x-Achse und der Druck auf der y-Achse dargestellt wird. Es werden die beiden Punkte \(P(0|921,0)\) und \(P(97|1251,248266)\) verwendet, um die Koeffizienten \(m\) und \(b\) zu bestimmen:
 
 \begin{equation}
   \begin{aligned}
@@ -299,11 +298,9 @@ Folglich bilden die beiden Eichpunkte eine lineare Funktion \(f(x) = mx + b\), w
     & \phantom{~\Rightarrow} m = \frac{330,248266}{97}
   \end{aligned}
 \end{equation}
-\FPset\b1{921,0}
-\FPdiv\m1{330.248266}{97}
 
 \begin{equation}
-\Rightarrow f(x) = \frac{330,248266}{97} x + \b
+\Rightarrow f(x) = \frac{330,248266}{97} x + 921,0
 \end{equation}
 Um herauszufinden, bei welcher Temperatur für den Druck \(p = 0\) gilt, kann der entsprechende Wert in die Funktionsgleichung eingesetzt werden:
 \begin{equation}
@@ -314,7 +311,11 @@ Um herauszufinden, bei welcher Temperatur für den Druck \(p = 0\) gilt, kann de
   \end{aligned}
 \end{equation}
 Dies entspricht in etwa dem erwarteten Wert, welcher den absoluten Nullpunkt bei \(T\approx-273\si{\celsius}\) darstellt. \\
-Unter Berücksichtigung der Eichkurve folgt für die gemessenen Werte aus Aufgabe 2: \\
+Unter Berücksichtigung der Eichkurve können nun die gemessenen Druckwerte in Temperaturwerte umgerechnet werden. Um jedoch arithmetisch effizienter vorzugehen, ist eine vorherige Berechnung der Umkehrfunktion für f(x) sinnvoll. \\
+\begin{equation}
+\Rightarrow f^{-1}(y) = \frac{97}{330,248266} (y - 921,0)
+\end{equation}
+
 \begin{table}[H]
 \centering
 \sisetup{
@@ -323,26 +324,29 @@ Unter Berücksichtigung der Eichkurve folgt für die gemessenen Werte aus Aufgab
   separate-uncertainty=true, % separate Spalte
   table-number-alignment=center
 }
-\begin{tabular}{S[table-format=2.0(1)] S[table-format=4.0(1)] S[table-format=4.0(1)]}
+\begin{tabular}{S[table-format=2.0(1)] S[table-format=4.0(1)] S[table-format=4.0(1)] S[table-format=4.0(1)]}
 \toprule
-{Referenztemperatur [\si{\celsius}]} & {Ungeeicht[hPa]} & {Geeicht[hPa]} \\
+{Referenztemperatur [\si{\celsius}]} & {Druck[hPa]} & {Eichwert [\si{\celsius}]} & {Eichwert [K]} \\
 \midrule
-00 \pm 1 & 921 \pm 2.8 \\
-10 \pm 1 & 957 \pm 2.9 \\
-20 \pm 1 & 994 \pm 3.0 \\
-30 \pm 1 & 1026 \pm 3 \\
-40 \pm 1 & 1059 \pm 3 \\
-50 \pm 1 & 1094 \pm 3 \\
-60 \pm 1 & 1129 \pm 3 \\
-70 \pm 1 & 1163 \pm 3 \\
-80 \pm 1 & 1201 \pm 3 \\
-90 \pm 1 & 1235 \pm 3 \\
-97 \pm 1 & 1246 \pm 3 \\
+00 \pm 1 & 921 \pm 2. & 0,000 & 273.15 \\
+10 \pm 1 & 957 \pm 2.9 & 10.573 & 283.72 \\
+20 \pm 1 & 994 \pm 3.0 & 21.441 & 294.59 \\
+30 \pm 1 & 1026 \pm 3 & 30.84 & 303.99 \\
+40 \pm 1 & 1059 \pm 3 & 40.53 & 313.68 \\
+50 \pm 1 & 1094 \pm 3 & 50.81 & 323.96 \\
+60 \pm 1 & 1129 \pm 3 & 61.09 & 334.24 \\
+70 \pm 1 & 1163 \pm 3 & 71.07 & 344.22 \\
+80 \pm 1 & 1201 \pm 3 & 82.24 & 355.39 \\
+90 \pm 1 & 1235 \pm 3 & 92.23 & 365.38 \\
+97 \pm 1 & 1246 \pm 3 & 95.45 & 368.60 \\
 \bottomrule
 \end{tabular}
 \caption{}
 \label{tab:druck-eichung}
 \end{table}
+
+\subsection{Eichen der Thermospannung-Temperaturskala}
+
 
 \subsection{Endergebnisse}
 

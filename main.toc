@@ -18,8 +18,9 @@
 \contentsline {subsection}{\numberline {2.1}Temperaturmessungen am Becherglas}{7}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Temperaturmessungen am Bunsenbrenner}{8}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Auswertung}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Eichen der Temperaturskala}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Endergebnisse}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.1}Eichen der Druck-Temperaturskala}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Eichen der Thermospannung-Temperaturskala}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Endergebnisse}{9}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Fehlerbetrachtung}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Diskussion}{9}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Explizite Fehlerrechnung}{10}{subsection.4.2}%

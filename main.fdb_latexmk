@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1774597048.41393 "/home/david/code/latex/V16_Temperaturmessung/main.tex" "main.pdf" "main" 1774597049.4879 0
+["pdflatex"] 1774603629.04352 "/home/david/code/latex/V16_Temperaturmessung/main.tex" "main.pdf" "main" 1774603630.38405 0
   "/etc/texmf/web2c/texmf.cnf" 1774539036.53669 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/david/code/latex/V16_Temperaturmessung/main.tex" 1774597048.17006 14264 307652300eb15ee6e8800ea950fb6028 ""
+  "/home/david/code/latex/V16_Temperaturmessung/main.tex" 1774603628.05736 14875 e6d230d559c228ac73ba3d72daa7417f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm" 1136768653 3584 ad9fcbc26a2a7bccd6d08b0a5792fbe0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm" 1136768653 3584 269b66e921ba58750c12f7f1c8ea3ebd ""
@@ -142,14 +142,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1774540577.4842 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1774540676 8213973 026e6abc4f6959c1caa8ec638362d94f ""
-  "Copy of Protokolldeckblatt (2015) +11.pdf" 1774535754 225310 92252b40ed778291bf0f651bd207c269 ""
-  "Screenshot 2026-03-22 105709.png" 1774535754 66454 a616082077c47568cba1d08b6981bf06 ""
-  "Screenshot 2026-03-22 123212.png" 1774535754 33362 37ccf622d80a3d93cf32e213723baf1f ""
-  "Screenshot 2026-03-22 131246.png" 1774535754 59308 f94a0adcb6221289ae29fae79057c020 ""
-  "main.aux" 1774597049.39245 4867 1dda067acd4a65c37c189501bdcb82a6 "pdflatex"
-  "main.out" 1774597049.39345 2630 b88babecc8f9f7803a6d5f52053f3f05 "pdflatex"
-  "main.tex" 1774597048.17006 14264 307652300eb15ee6e8800ea950fb6028 ""
-  "main.toc" 1774597049.39445 1988 71347eea05d07c5660d6fa878d262f7a "pdflatex"
+  "Copy of Protokolldeckblatt (2015) +11.pdf" 1774598674.27181 225310 92252b40ed778291bf0f651bd207c269 ""
+  "Screenshot 2026-03-22 105709.png" 1774598674.27359 66454 a616082077c47568cba1d08b6981bf06 ""
+  "Screenshot 2026-03-22 123212.png" 1774598674.27421 33362 37ccf622d80a3d93cf32e213723baf1f ""
+  "Screenshot 2026-03-22 131246.png" 1774598674.27503 59308 f94a0adcb6221289ae29fae79057c020 ""
+  "main.aux" 1774603630.26086 5021 93d19376a66dec9ab9046b58cc333358 "pdflatex"
+  "main.out" 1774603630.26186 2929 c8a2539440ef6f609a9d32c8c8571057 "pdflatex"
+  "main.tex" 1774603628.05736 14875 e6d230d559c228ac73ba3d72daa7417f ""
+  "main.toc" 1774603630.26186 2101 30e48735fae528b8efbde4975f0c2670 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

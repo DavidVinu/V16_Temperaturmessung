@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.26)  27 MAR 2026 08:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.26)  27 MAR 2026 10:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -127,62 +127,27 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
-Package: fp 1995/04/02
- `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
-Package: defpattern 1994/10/12
-\actioncount=\count275
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
-Package: fp-basic 1996/05/13
-\FP@xs=\count276
-\FP@xia=\count277
-\FP@xib=\count278
-\FP@xfa=\count279
-\FP@xfb=\count280
-\FP@rega=\count281
-\FP@regb=\count282
-\FP@regs=\count283
-\FP@times=\count284
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
-Package: fp-addons 1995/03/15
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
-Package: fp-snap 1995/04/05
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
-Package: fp-exp 1995/04/03
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
-Package: fp-trigo 1995/04/14
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
-Package: fp-pas 1994/08/29
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
-Package: fp-random 1995/02/23
-\FPseed=\count285
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
-Package: fp-eqn 1995/04/03
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
-Package: fp-upn 1996/10/21
-) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
-Package: fp-eval 1995/04/03
-)) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2024-01-25 v3.3.10 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count286
-\l__siunitx_number_exponent_fixed_int=\count287
-\l__siunitx_number_min_decimal_int=\count288
-\l__siunitx_number_min_integer_int=\count289
-\l__siunitx_number_round_precision_int=\count290
-\l__siunitx_number_lower_threshold_int=\count291
-\l__siunitx_number_upper_threshold_int=\count292
-\l__siunitx_number_group_first_int=\count293
-\l__siunitx_number_group_size_int=\count294
-\l__siunitx_number_group_minimum_int=\count295
+\l__siunitx_number_uncert_offset_int=\count275
+\l__siunitx_number_exponent_fixed_int=\count276
+\l__siunitx_number_min_decimal_int=\count277
+\l__siunitx_number_min_integer_int=\count278
+\l__siunitx_number_round_precision_int=\count279
+\l__siunitx_number_lower_threshold_int=\count280
+\l__siunitx_number_upper_threshold_int=\count281
+\l__siunitx_number_group_first_int=\count282
+\l__siunitx_number_group_size_int=\count283
+\l__siunitx_number_group_minimum_int=\count284
 \l__siunitx_angle_tmp_dim=\dimen153
 \l__siunitx_angle_marker_box=\box53
 \l__siunitx_angle_unit_box=\box54
-\l__siunitx_compound_count_int=\count296
+\l__siunitx_compound_count_int=\count285
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
  (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count297
+\etb@tempcnta=\count286
 ) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -206,9 +171,9 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_table_after_box=\box60
 \l__siunitx_table_before_dim=\dimen156
 \l__siunitx_table_carry_dim=\dimen157
-\l__siunitx_unit_tmp_int=\count298
-\l__siunitx_unit_position_int=\count299
-\l__siunitx_unit_total_int=\count300
+\l__siunitx_unit_tmp_int=\count287
+\l__siunitx_unit_position_int=\count288
+\l__siunitx_unit_total_int=\count289
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen158
@@ -221,11 +186,46 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 )) (/usr/share/texlive/texmf-dist/tex/latex/spreadtab/spreadtab.sty
 Package: spreadtab 2023/09/11 v0.52 Spreadsheet features for table environments (CT)
  (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count301
-\xs_countb=\count302
+\xs_counta=\count290
+\xs_countb=\count291
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-) spreadtab message: FP calc engine now active
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count292
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count293
+\FP@xia=\count294
+\FP@xib=\count295
+\FP@xfa=\count296
+\FP@xfb=\count297
+\FP@rega=\count298
+\FP@regb=\count299
+\FP@regs=\count300
+\FP@times=\count301
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count302
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)) spreadtab message: FP calc engine now active
 \ST@count=\count303
 \ST@colcount=\count304
 \ST@colcount@i=\count305
@@ -453,24 +453,24 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count339
@@ -492,7 +492,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 35.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -532,7 +532,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 35.
+Package hyperref Info: Link coloring ON on input line 34.
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -546,41 +546,41 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-<Copy of Protokolldeckblatt (2015) +11.pdf, id=72, 597.45204pt x 845.1575pt>
+<Copy of Protokolldeckblatt (2015) +11.pdf, id=76, 597.45204pt x 845.1575pt>
 File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf>
-Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf  used on input line 36.
+Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf  used on input line 35.
 (pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
 File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf>
-Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf  used on input line 36.
+Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf  used on input line 35.
 (pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-<Copy of Protokolldeckblatt (2015) +11.pdf, id=75, page=1, 597.45204pt x 845.1575pt>
+<Copy of Protokolldeckblatt (2015) +11.pdf, id=79, page=1, 597.45204pt x 845.1575pt>
 File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf, page 1>
-Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 36.
-(pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
-<use Copy of Protokolldeckblatt (2015) +11.pdf, page 1>
-Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 36.
+Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
 File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf, page 1>
-Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 36.
+Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
 File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf, page 1>
-Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 36.
+Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
 File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
 <use Copy of Protokolldeckblatt (2015) +11.pdf, page 1>
-Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 36.
+Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 35.
+(pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
+File: Copy of Protokolldeckblatt (2015) +11.pdf Graphic file (type pdf)
+<use Copy of Protokolldeckblatt (2015) +11.pdf, page 1>
+Package pdftex.def Info: Copy of Protokolldeckblatt (2015) +11.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
  [1
 
 
  <./Copy of Protokolldeckblatt (2015) +11.pdf>]
-Overfull \hbox (12.00002pt too wide) in paragraph at lines 38--38
+Overfull \hbox (12.00002pt too wide) in paragraph at lines 37--37
  [][] 
  []
 
@@ -589,33 +589,33 @@ Overfull \hbox (12.00002pt too wide) in paragraph at lines 38--38
 \openout4 = `main.toc'.
 
  [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<Screenshot 2026-03-22 123212.png, id=191, 752.8125pt x 659.46375pt>
+<Screenshot 2026-03-22 123212.png, id=196, 752.8125pt x 659.46375pt>
 File: Screenshot 2026-03-22 123212.png Graphic file (type png)
 <use Screenshot 2026-03-22 123212.png>
-Package pdftex.def Info: Screenshot 2026-03-22 123212.png  used on input line 50.
+Package pdftex.def Info: Screenshot 2026-03-22 123212.png  used on input line 49.
 (pdftex.def)             Requested size: 455.24411pt x 398.8007pt.
-<Screenshot 2026-03-22 105709.png, id=193, 700.11563pt x 670.75594pt>
+<Screenshot 2026-03-22 105709.png, id=198, 700.11563pt x 670.75594pt>
 File: Screenshot 2026-03-22 105709.png Graphic file (type png)
 <use Screenshot 2026-03-22 105709.png>
-Package pdftex.def Info: Screenshot 2026-03-22 105709.png  used on input line 63.
+Package pdftex.def Info: Screenshot 2026-03-22 105709.png  used on input line 62.
 (pdftex.def)             Requested size: 254.93558pt x 244.2456pt.
-<Screenshot 2026-03-22 131246.png, id=194, 864.98157pt x 637.63219pt>
+<Screenshot 2026-03-22 131246.png, id=199, 864.98157pt x 637.63219pt>
 File: Screenshot 2026-03-22 131246.png Graphic file (type png)
 <use Screenshot 2026-03-22 131246.png>
-Package pdftex.def Info: Screenshot 2026-03-22 131246.png  used on input line 79.
+Package pdftex.def Info: Screenshot 2026-03-22 131246.png  used on input line 78.
 (pdftex.def)             Requested size: 182.09486pt x 134.22778pt.
 
-Overfull \hbox (41.23703pt too wide) in paragraph at lines 70--84
+Overfull \hbox (41.23703pt too wide) in paragraph at lines 69--83
  [][] 
  []
 
 [3 <./Screenshot 2026-03-22 123212.png>] [4 <./Screenshot 2026-03-22 105709.png> <./Screenshot 2026-03-22 131246.png>]
-Overfull \hbox (21.84576pt too wide) detected at line 174
+Overfull \hbox (21.84576pt too wide) detected at line 173
 [][]
  []
 
 [5]
-Overfull \hbox (18.54706pt too wide) in paragraph at lines 214--216
+Overfull \hbox (18.54706pt too wide) in paragraph at lines 213--215
 []\T1/cmr/m/n/12 Eine Vier-leiter-schal-tung wird zur In-be-trieb-nah-me des Pt-100-Widerstandsthermometers
  []
 
@@ -627,13 +627,33 @@ Package siunitx Info: Option "separate-uncertainty" has been deprecated in
 (siunitx)             Use "uncertainty-mode = separate" as a replacement.
 
 
-Overfull \hbox (9.1388pt too wide) detected at line 238
+Overfull \hbox (9.1388pt too wide) detected at line 237
 []$[]\OT1/cmr/m/n/12 8$ 
  []
 
 
-Overfull \hbox (18.27759pt too wide) detected at line 238
+Overfull \hbox (18.27759pt too wide) detected at line 237
 $[]\OT1/cmr/m/n/12 0$ []$[]8$ 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 237
+[]$[]\OT1/cmr/m/n/12 13$ 
+ []
+
+
+Overfull \hbox (11.74988pt too wide) detected at line 237
+$[]\OT1/cmr/m/n/12 00$ []$[]13$ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 238
+[]$[]\OT1/cmr/m/n/12 9$ 
+ []
+
+
+Overfull \hbox (18.27759pt too wide) detected at line 238
+$[]\OT1/cmr/m/n/12 0$ []$[]9$ 
  []
 
 
@@ -643,37 +663,27 @@ Overfull \hbox (5.87494pt too wide) detected at line 238
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 238
-$[]\OT1/cmr/m/n/12 00$ []$[]13$ 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 239
-[]$[]\OT1/cmr/m/n/12 9$ 
- []
-
-
-Overfull \hbox (18.27759pt too wide) detected at line 239
-$[]\OT1/cmr/m/n/12 0$ []$[]9$ 
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 239
-[]$[]\OT1/cmr/m/n/12 13$ 
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 239
 $[]\OT1/cmr/m/n/12 50$ []$[]13$ 
  []
 
 
-Overfull \hbox (9.1388pt too wide) detected at line 240
+Overfull \hbox (9.1388pt too wide) detected at line 239
 []$[]\OT1/cmr/m/n/12 0$ 
  []
 
 
-Overfull \hbox (18.27759pt too wide) detected at line 240
+Overfull \hbox (18.27759pt too wide) detected at line 239
 $[]\OT1/cmr/m/n/12 0$ []$[]0$ 
+ []
+
+
+Overfull \hbox (5.87494pt too wide) detected at line 239
+[]$[]\OT1/cmr/m/n/12 14$ 
+ []
+
+
+Overfull \hbox (11.74988pt too wide) detected at line 239
+$[]\OT1/cmr/m/n/12 00$ []$[]14$ 
  []
 
 
@@ -683,7 +693,7 @@ Overfull \hbox (5.87494pt too wide) detected at line 240
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 240
-$[]\OT1/cmr/m/n/12 00$ []$[]14$ 
+$[]\OT1/cmr/m/n/12 80$ []$[]14$ 
  []
 
 
@@ -693,17 +703,17 @@ Overfull \hbox (5.87494pt too wide) detected at line 241
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 241
-$[]\OT1/cmr/m/n/12 80$ []$[]14$ 
+$[]\OT1/cmr/m/n/12 60$ []$[]14$ 
  []
 
 
 Overfull \hbox (5.87494pt too wide) detected at line 242
-[]$[]\OT1/cmr/m/n/12 14$ 
+[]$[]\OT1/cmr/m/n/12 15$ 
  []
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 242
-$[]\OT1/cmr/m/n/12 60$ []$[]14$ 
+$[]\OT1/cmr/m/n/12 60$ []$[]15$ 
  []
 
 
@@ -713,7 +723,7 @@ Overfull \hbox (5.87494pt too wide) detected at line 243
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 243
-$[]\OT1/cmr/m/n/12 60$ []$[]15$ 
+$[]\OT1/cmr/m/n/12 40$ []$[]15$ 
  []
 
 
@@ -723,17 +733,17 @@ Overfull \hbox (5.87494pt too wide) detected at line 244
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 244
-$[]\OT1/cmr/m/n/12 40$ []$[]15$ 
+$[]\OT1/cmr/m/n/12 50$ []$[]15$ 
  []
 
 
 Overfull \hbox (5.87494pt too wide) detected at line 245
-[]$[]\OT1/cmr/m/n/12 15$ 
+[]$[]\OT1/cmr/m/n/12 16$ 
  []
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 245
-$[]\OT1/cmr/m/n/12 50$ []$[]15$ 
+$[]\OT1/cmr/m/n/12 70$ []$[]16$ 
  []
 
 
@@ -753,37 +763,32 @@ Overfull \hbox (5.87494pt too wide) detected at line 247
 
 
 Overfull \hbox (11.74988pt too wide) detected at line 247
-$[]\OT1/cmr/m/n/12 70$ []$[]16$ 
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 248
-[]$[]\OT1/cmr/m/n/12 16$ 
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 248
 $[]\OT1/cmr/m/n/12 80$ []$[]16$ 
  []
 
 
-Overfull \hbox (5.87494pt too wide) detected at line 273
+Overfull \hbox (5.87494pt too wide) detected at line 272
 []$[]\OT1/cmr/m/n/12 15$ 
  []
 
 
-Overfull \hbox (11.74988pt too wide) detected at line 273
+Overfull \hbox (11.74988pt too wide) detected at line 272
 $[]\OT1/cmr/m/n/12 80$ []$[]15$ 
  []
 
-[7{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] ( FP-DIV )
-Overfull \hbox (9.1388pt too wide) detected at line 331
-[]$[]\OT1/cmr/m/n/12 8$ 
+[7{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 312--315
+
+ []
+
+[8]
+Overfull \hbox (20.88867pt too wide) detected at line 331
+$[]\OT1/cmr/m/n/12 000$ [] 
  []
 
 
-Overfull \hbox (18.27759pt too wide) detected at line 331
-$[]\OT1/cmr/m/n/12 0$ []$[]8$ 
+Overfull \hbox (15.01373pt too wide) detected at line 332
+$[]\OT1/cmr/m/n/12 15$ [] 
  []
 
 
@@ -797,6 +802,16 @@ $[]\OT1/cmr/m/n/12 0$ []$[]9$
  []
 
 
+Overfull \hbox (20.88867pt too wide) detected at line 332
+$[]\OT1/cmr/m/n/12 573$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 333
+$[]\OT1/cmr/m/n/12 72$ [] 
+ []
+
+
 Overfull \hbox (9.1388pt too wide) detected at line 333
 []$[]\OT1/cmr/m/n/12 0$ 
  []
@@ -807,47 +822,132 @@ $[]\OT1/cmr/m/n/12 0$ []$[]0$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--345
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 351--371
-
+Overfull \hbox (20.88867pt too wide) detected at line 333
+$[]\OT1/cmr/m/n/12 441$ [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--371
+Overfull \hbox (15.01373pt too wide) detected at line 334
+$[]\OT1/cmr/m/n/12 59$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 334
+$[]\OT1/cmr/m/n/12 84$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 335
+$[]\OT1/cmr/m/n/12 99$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 335
+$[]\OT1/cmr/m/n/12 53$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 336
+$[]\OT1/cmr/m/n/12 68$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 336
+$[]\OT1/cmr/m/n/12 81$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 337
+$[]\OT1/cmr/m/n/12 96$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 337
+$[]\OT1/cmr/m/n/12 09$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 338
+$[]\OT1/cmr/m/n/12 24$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 338
+$[]\OT1/cmr/m/n/12 07$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 339
+$[]\OT1/cmr/m/n/12 22$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 339
+$[]\OT1/cmr/m/n/12 24$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 340
+$[]\OT1/cmr/m/n/12 39$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 340
+$[]\OT1/cmr/m/n/12 23$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 341
+$[]\OT1/cmr/m/n/12 38$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 341
+$[]\OT1/cmr/m/n/12 45$ [] 
+ []
+
+
+Overfull \hbox (15.01373pt too wide) detected at line 342
+$[]\OT1/cmr/m/n/12 60$ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--371
+Underfull \hbox (badness 10000) in paragraph at lines 355--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--371
+Underfull \hbox (badness 10000) in paragraph at lines 355--375
 
  []
 
 
-Overfull \hbox (13.13596pt too wide) in paragraph at lines 351--371
+Underfull \hbox (badness 10000) in paragraph at lines 355--375
+
+ []
+
+
+Overfull \hbox (13.13596pt too wide) in paragraph at lines 355--375
 \T1/cmr/m/n/12 nä-hernd auf Zim-mer-tem-pe-ra-tur \TS1/cmr/m/n/12 ^^Y \T1/cmr/m/n/12 die-ses ÿchäd-li-che Vo-lu-men"wird kom-pri-miert/expandiert,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--371
+Underfull \hbox (badness 10000) in paragraph at lines 355--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--371
+Underfull \hbox (badness 10000) in paragraph at lines 355--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--371
+Underfull \hbox (badness 10000) in paragraph at lines 355--375
 
  []
 
@@ -857,21 +957,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B88BABECC8F9F7803A6D5F52053F3F05;2630.
+(rerunfilecheck)             Checksum: C8A2539440EF6F609A9D32C8C8571057;2929.
  ) 
 Here is how much of TeX's memory you used:
- 19073 strings out of 474222
- 359765 string characters out of 5748733
+ 19076 strings out of 474222
+ 359808 string characters out of 5748733
  1952975 words of memory out of 5000000
- 41022 multiletter control sequences out of 15000+600000
+ 41023 multiletter control sequences out of 15000+600000
  573583 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,18n,80p,621b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (10 pages, 596484 bytes).
+Output written on main.pdf (10 pages, 597735 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
