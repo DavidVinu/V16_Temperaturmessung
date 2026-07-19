@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tempkit"
+version = "1.0.0"
+description = "Analysis toolkit for the V16 Temperaturmessung experiment"
+readme = "README_tempkit.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "V16 Temperaturmessung" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+tempkit = "tempkit.cli:main"
+
+[tool.setuptools]
+packages = ["tempkit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
